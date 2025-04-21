@@ -1,5 +1,7 @@
 import pytest
 import numpy as np
+from adt_examples.fibonacci import Fib
+
 try:
     from adt_examples.fibonacci import Fib
 except ImportError:
